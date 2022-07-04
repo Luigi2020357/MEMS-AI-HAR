@@ -20,7 +20,7 @@ X-CUBE-AI, expansion of STM32CubeMX
 
 Data Acquisition 
 
-I dati accelerometrici sono acquisiti tramite il sensore LSM6DSL che un system-in-package with a 3D digital accelerometer and 3D digital gyroscope with I2C/SPI interface for output communication. The accelerometric data are acquired through the LSM6DSL sensor which a system-in-package with a 3D digital accelerometer and 3D digital gyroscope with I2C / SPI interface for output communication. 
+Accelerometric data are acquired via the LSM6DSL sensor as a system-in-package with a 3D digital accelerometer and 3D digital gyroscope with I2C/SPI interface for output communication. The accelerometric data are acquired through the LSM6DSL sensor which a system-in-package with a 3D digital accelerometer and 3D digital gyroscope with I2C / SPI interface for output communication. 
 
 The data acquired after a pre-processing phase is sent to a neural network for a classification of downstairs, upstairs, walking, jogging and standing activities. The neural network used is a sequential CNN network produced directly on the system board by the Keras NN pre-trained library. The topology consists of: two convolutional layers, two pooling layers, two fully connected layers.  
 
